@@ -18,6 +18,12 @@ Then run the test-suite:
 npm test
 ```
 
+To run linter:
+
+```
+npx eslint src/*.js
+```
+
 ### How to Use
 
 Make sure you have Node.js installed on your operating system (the developer used Node.js LTS `v16.14.2`).
