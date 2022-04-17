@@ -11,7 +11,7 @@ describe('for transactions without any discounts', () => {
 
         const expected = {
             order_id: 1001,
-            order_datetime: 'Fri, 08 Mar 2019 12:13:29 +0000',
+            order_datetime: '2019-03-08T12:13:29+0000',
             total_order_value: 359.78,
             average_unit_price: 59.96333333333333,
             distinct_unit_count: 2,
@@ -29,7 +29,7 @@ describe('for transactions without any discounts', () => {
 
         const expected = {
             order_id: 1002,
-            order_datetime: 'Fri, 08 Mar 2019 13:45:01 +0000',
+            order_datetime: '2019-03-08T01:45:01+0000',
             total_order_value: 102.93,
             average_unit_price: 14.704285714285716,
             distinct_unit_count: 3,
@@ -47,7 +47,7 @@ describe('for transactions without any discounts', () => {
 
         const expected = {
             order_id: 1003,
-            order_datetime: 'Fri, 08 Mar 2019 14:57:31 +0000',
+            order_datetime: '2019-03-08T02:57:31+0000',
             total_order_value: 680.61,
             average_unit_price: 32.410000000000004,
             distinct_unit_count: 4,
@@ -67,7 +67,7 @@ describe('for transactions with DOLLAR discount type', () => {
 
         const expected = {
             order_id: 1004,
-            order_datetime: 'Fri, 08 Mar 2019 17:34:30 +0000',
+            order_datetime: '2019-03-08T05:34:30+0000',
             total_order_value: 344.87,
             average_unit_price: 26.52846153846154,
             distinct_unit_count: 6,
@@ -85,7 +85,7 @@ describe('for transactions with DOLLAR discount type', () => {
 
         const expected = {
             order_id: 1005,
-            order_datetime: 'Fri, 08 Mar 2019 19:03:05 +0000',
+            order_datetime: '2019-03-08T07:03:05+0000',
             total_order_value: 292.85,
             average_unit_price: 19.523333333333333,
             distinct_unit_count: 5,
@@ -103,7 +103,7 @@ describe('for transactions with DOLLAR discount type', () => {
 
         const expected = {
             order_id: 1006,
-            order_datetime: 'Fri, 08 Mar 2019 20:22:51 +0000',
+            order_datetime: '2019-03-08T08:22:51+0000',
             total_order_value: 1931.8600000000001,
             average_unit_price: 68.995,
             distinct_unit_count: 10,
@@ -123,7 +123,7 @@ describe('for transactions with PERCENTAGE discount type', () => {
 
         const expected = {
             order_id: 1007,
-            order_datetime: 'Fri, 08 Mar 2019 22:00:26 +0000',
+            order_datetime: '2019-03-08T10:00:26+0000',
             total_order_value: 465.86,
             average_unit_price: 27.40352941176471,
             distinct_unit_count: 9,
@@ -141,7 +141,7 @@ describe('for transactions with PERCENTAGE discount type', () => {
 
         const expected = {
             order_id: 1008,
-            order_datetime: 'Fri, 08 Mar 2019 23:55:30 +0000',
+            order_datetime: '2019-03-08T11:55:30+0000',
             total_order_value: 529.87,
             average_unit_price: 44.155833333333334,
             distinct_unit_count: 6,
@@ -159,7 +159,7 @@ describe('for transactions with PERCENTAGE discount type', () => {
 
         const expected = {
             order_id: 1009,
-            order_datetime: 'Sat, 09 Mar 2019 00:21:12 +0000',
+            order_datetime: '2019-03-09T12:21:12+0000',
             total_order_value: 49.99,
             average_unit_price: 49.99,
             distinct_unit_count: 1,
@@ -179,7 +179,7 @@ describe('for transactions with DOLLAR and PERCENTAGE discount type', () => {
 
         const expected = {
             order_id: 1010,
-            order_datetime: 'Sat, 09 Mar 2019 00:59:40 +0000',
+            order_datetime: '2019-03-09T12:59:40+0000',
             total_order_value: 967.093,
             average_unit_price: 46.05204761904762,
             distinct_unit_count: 7,
@@ -197,7 +197,7 @@ describe('for transactions with DOLLAR and PERCENTAGE discount type', () => {
 
         const expected = {
             order_id: 1011,
-            order_datetime: 'Sat, 09 Mar 2019 01:08:06 +0000',
+            order_datetime: '2019-03-09T01:08:06+0000',
             total_order_value: 47.386,
             average_unit_price: 7.897666666666667,
             distinct_unit_count: 1,
@@ -215,7 +215,7 @@ describe('for transactions with DOLLAR and PERCENTAGE discount type', () => {
 
         const expected = {
             order_id: 1012,
-            order_datetime: 'Sat, 09 Mar 2019 03:28:29 +0000',
+            order_datetime: '2019-03-09T03:28:29+0000',
             total_order_value: 436.29282,
             average_unit_price: 36.357735,
             distinct_unit_count: 2,
