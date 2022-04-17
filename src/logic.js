@@ -1,4 +1,4 @@
-const processSingleLine = line => {
+const processSingleLine = (line, outputFormat) => {
     // Check for NULL line
     if (! line) return;
 
@@ -43,8 +43,19 @@ const processSingleLine = line => {
         total_units_count,
         customer_state,
     };
-    //console.log(result);
-    return Buffer.from(JSON.stringify(result));
+
+    if (outputFormat && outputFormat == 'object') {
+        // To be called from unit-tests
+        return result;
+    } else {
+        // Return output as a CSV line
+        let values = [];
+
+        Object.values(result).forEach(value => {
+            values.push(value);
+        });
+        return Buffer.from(values.join(',') + "\n");
+    }
 }
 
 

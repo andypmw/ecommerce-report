@@ -14,4 +14,5 @@ const s = fs
             .on('end', () => {
                 console.log('Done.');
             })
-    );
+    )
+    .pipe(fs.createWriteStream('./output.csv'));
