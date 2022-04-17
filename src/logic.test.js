@@ -7,7 +7,7 @@ describe('for transactions without any discounts', () => {
     it('should able to process sample #1 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/01-no-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1001,
@@ -25,7 +25,7 @@ describe('for transactions without any discounts', () => {
     it('should able to process sample #2 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/02-no-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1002,
@@ -43,7 +43,7 @@ describe('for transactions without any discounts', () => {
     it('should able to process sample #3 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/03-no-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1003,
@@ -63,7 +63,7 @@ describe('for transactions with DOLLAR discount type', () => {
     it('should able to process sample #1 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/04-dollar-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1004,
@@ -81,7 +81,7 @@ describe('for transactions with DOLLAR discount type', () => {
     it('should able to process sample #2 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/05-dollar-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1005,
@@ -99,7 +99,7 @@ describe('for transactions with DOLLAR discount type', () => {
     it('should able to process sample #3 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/06-dollar-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1006,
@@ -119,7 +119,7 @@ describe('for transactions with PERCENTAGE discount type', () => {
     it('should able to process sample #1 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/07-percentage-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1007,
@@ -137,7 +137,7 @@ describe('for transactions with PERCENTAGE discount type', () => {
     it('should able to process sample #2 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/08-percentage-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1008,
@@ -155,7 +155,7 @@ describe('for transactions with PERCENTAGE discount type', () => {
     it('should able to process sample #3 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/09-percentage-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1009,
@@ -175,7 +175,7 @@ describe('for transactions with DOLLAR and PERCENTAGE discount type', () => {
     it('should able to process sample #1 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/10-dollar-and-percentage-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1010,
@@ -193,7 +193,7 @@ describe('for transactions with DOLLAR and PERCENTAGE discount type', () => {
     it('should able to process sample #2 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/11-dollar-and-percentage-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1011,
@@ -211,7 +211,7 @@ describe('for transactions with DOLLAR and PERCENTAGE discount type', () => {
     it('should able to process sample #3 with valid output', () => {
         const line = fs.readFileSync('./test/transaction-samples/12-dollar-and-percentage-discount.json');
 
-        const result = processSingleLine(line);
+        const result = processSingleLine(line, 'object');
 
         const expected = {
             order_id: 1012,
