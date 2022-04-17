@@ -2,6 +2,22 @@
 
 A Node.js CLI app to process e-commerce transactions list from JSONL format to be a summary output.
 
+### Development
+
+Make sure you have Node.js installed on your operating system (the developer used Node.js LTS `v16.14.2`).
+
+First, install dependencies:
+
+```
+npm install
+```
+
+Then run the test-suite:
+
+```
+npm test
+```
+
 ### How to Use
 
 Make sure you have Node.js installed on your operating system (the developer used Node.js LTS `v16.14.2`).

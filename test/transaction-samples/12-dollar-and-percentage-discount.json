@@ -1,0 +1,92 @@
+{
+    "order_id": 1012,
+    "order_date": "Sat, 09 Mar 2019 03:28:29 +0000",
+    "customer": {
+        "customer_id": 8384200,
+        "first_name": "Gwendolyn",
+        "last_name": "Schmidt",
+        "email": "gwendolyn.schmidt@example.net",
+        "phone": "+61-8-6093-4812",
+        "shipping_address": {
+            "street": "10 VINE CT",
+            "postcode": "6024",
+            "suburb": "GREENWOOD",
+            "state": "WESTERN AUSTRALIA"
+        }
+    },
+    "items": [
+        {
+            "quantity": 6,
+            "unit_price": 39.99,
+            "product": {
+                "product_id": 3575764,
+                "title": "KingGee Men's Cooper Work Boot - Brown",
+                "subtitle": null,
+                "image": "https://s.catch.com.au/images/product/0017/17630/5c6c876cc7bac849614847.jpg",
+                "thumbnail": "https://s.catch.com.au/images/product/0017/17630/5c6c876cc7bac849614847_w200.jpg",
+                "category": [
+                    "WORKWEAR",
+                    "WORKWEAR",
+                    "FOOTWEAR",
+                    "ELASTIC SIDE BOOT"
+                ],
+                "url": "https://www.catch.com.au/product/kinggee-mens-cooper-work-boot-brown-3575764",
+                "upc": "9318673599440",
+                "gtin14": null,
+                "created_at": "2019-01-25 16:18:26",
+                "brand": {
+                    "id": 5753,
+                    "name": "King Gee"
+                }
+            }
+        },
+        {
+            "quantity": 6,
+            "unit_price": 52.99,
+            "product": {
+                "product_id": 3498010,
+                "title": "Max's Lab Series BetaPump Red Alert Pre-Workout Sour Watermelon 300g",
+                "subtitle": null,
+                "image": "https://s.catch.com.au/images/product/0016/16854/5c46deab9ecb7117619665.jpg",
+                "thumbnail": "https://s.catch.com.au/images/product/0016/16854/5c46deab9ecb7117619665_w200.jpg",
+                "category": [
+                    "HEALTH",
+                    "DIET & FITNESS",
+                    "FITNESS",
+                    "DRINKS & FORMULA"
+                ],
+                "url": "https://www.catch.com.au/product/maxs-lab-series-betapump-red-alert-pre-workout-sour-watermelon-300g-3498010",
+                "upc": "9317293300283",
+                "gtin14": null,
+                "created_at": "2019-01-10 12:05:07",
+                "brand": {
+                    "id": 4277,
+                    "name": "Max's"
+                }
+            }
+        }
+    ],
+    "discounts": [
+        {
+            "type": "DOLLAR",
+            "value": 10,
+            "priority": 1
+        },
+        {
+            "type": "DOLLAR",
+            "value": 20,
+            "priority": 2
+        },
+        {
+            "type": "PERCENTAGE",
+            "value": 5,
+            "priority": 3
+        },
+        {
+            "type": "PERCENTAGE",
+            "value": 13,
+            "priority": 4
+        }
+    ],
+    "shipping_price": 7.99
+}

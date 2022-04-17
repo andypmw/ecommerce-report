@@ -4,12 +4,15 @@
   "description": "A Node.js CLI app to process e-commerce JSONL report",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "event-stream": "^4.0.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
