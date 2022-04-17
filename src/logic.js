@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 const processSingleLine = (line, outputFormat) => {
     // Check for NULL line
     if (! line) return;
@@ -5,7 +7,7 @@ const processSingleLine = (line, outputFormat) => {
     const trx = JSON.parse(line);
 
     const order_id = trx.order_id;
-    const order_datetime = trx.order_date;
+    const order_datetime = moment(trx.order_date).utc().format('YYYY-MM-DDThh:mm:ssZZ');
 
     let total_order_value_pre_discount = 0;
     let distinct_unit_count = 0;
