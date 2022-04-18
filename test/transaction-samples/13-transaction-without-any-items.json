@@ -1,0 +1,20 @@
+{
+    "order_id": 1001,
+    "order_date": "Fri, 08 Mar 2019 12:13:29 +0000",
+    "customer": {
+        "customer_id": 7970214,
+        "first_name": "Edwardo",
+        "last_name": "Rowe",
+        "email": "edwardo.rowe@example.org",
+        "phone": "(08) 7167 1968",
+        "shipping_address": {
+            "street": "FLAT 2 896 NEPEAN HWY",
+            "postcode": "3931",
+            "suburb": "MORNINGTON",
+            "state": "VICTORIA"
+        }
+    },
+    "items": [],
+    "discounts": [],
+    "shipping_price": 6.99
+}
